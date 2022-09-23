@@ -1,0 +1,11 @@
+php artisan serve --host=<seu ip> --port=<sua porta>
+
+php artisan migrate
+php artisan make:migration <nome da tabela> // Cria uma tabela com o nome desejado
+php artisan migrate:status
+php artisan migrate:fresh  //atualiza caso crie um campo novo, ele apaga e cria tudo denovo que foi alterado
+php artisan migrate:reset
+php artisan migrate:rollback
+php artisan migrate:refresh
+
+php artisan make:model <nome>
