@@ -107,6 +107,7 @@ header {
     max-height: 150px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px; 
+    
 }
 
 .card .card-date{
@@ -119,3 +120,40 @@ header {
     color: #212121;    
 }
 
+.card-participants {
+    font-size: 10px;
+    color: #757575;
+}
+
+/*  Event create page */
+
+#event-create-container{
+    padding: 30px;
+}
+
+#event-create-container label {
+    font-weight: bold;
+}
+
+#event-create-container input,
+#event-create-container select,
+#event-create-container textarea {
+    font-size: 12px;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    background-color: #353e48;
+    color: #fff;
+    padding: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-left: 0px;
+}
+
+footer p {
+    margin-bottom: 0;
+
+}

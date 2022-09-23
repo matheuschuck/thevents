@@ -41,7 +41,7 @@
         </nav>
     </header>
     @yield('content')
-    <footer class="m-3">
+    <footer class="">
         <p>TH Events &copy; 2022</p>
     </footer>
     <!-- ion icons -->
