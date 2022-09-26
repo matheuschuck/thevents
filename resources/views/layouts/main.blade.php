@@ -40,8 +40,17 @@
             </div>
         </nav>
     </header>
-    @yield('content')
-    <footer class="">
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                @if(session('msg'))
+                    <p class="msg">{{ session('msg') }}</p>
+                @endif
+                @yield('content')
+            </div>
+        </div>
+    </main>
+    <footer>
         <p>TH Events &copy; 2022</p>
     </footer>
     <!-- ion icons -->

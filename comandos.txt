@@ -12,3 +12,6 @@ php artisan make:model <nome>
 
 
 DB_DATABASE=THEvents
+
+
+php artisan make:migration add_image_to_events_table   = para adicionar um campo a uma migrate sem dar migrate denovo e sem perder os dados.
