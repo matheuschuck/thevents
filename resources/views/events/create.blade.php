@@ -31,11 +31,10 @@
                 <option value="1">Sim</option>
             </select>
         </div>
-
-        <div class="form-group">
+        <!-- <div class="form-group">
             <label for="description">Descrição</label>
             <textarea name="description" id="description" class="form-control" placeholder="O que vai acontecer no evento?"></textarea>
-        </div>
+        </div> -->
         <input type="submit" class="btn btn-dark" value="Criar Evento">
     </form>
 </div>
