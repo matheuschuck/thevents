@@ -12,7 +12,6 @@
             <input type="text" id='search' name="search" class="form-control" placeholder="Procurar...">
         </form>
     </div>
-    
 </div>
 <div id="events-container" class="col-md-12">
     <h2 class="text-white bg-secondary">Próximos Eventos</h2>
