@@ -201,6 +201,11 @@ header {
 #items-list li {
     display: flex;
 }
+
+#ddescription-container {
+    margin-top: 30px;
+}
+
 /* footer */
 footer {
     text-align: center;
