@@ -40,7 +40,7 @@
                             <a href="/logout" 
                             class="nav-link" 
                             onclick="event.preventDefault(); 
-                            this.close('form').submit();">
+                            this.closest('form').submit();">
                             Sair
                             </a>
                         </form>

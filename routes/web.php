@@ -46,5 +46,5 @@ Route::get('/contact', function(){
 //     })->name('dashboard');
 // });
 
-Route::get('/login', [EventController::class, 'login']);
-Route::get('/register', [EventController::class, 'register']);
+// Route::get('/login', [EventController::class, 'login']);
+// Route::get('/register', [EventController::class, 'register']);
